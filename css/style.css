@@ -13,6 +13,8 @@ body{
 }
 
 .cool.red{
+	width: 1300px;
+	height: 800px;
 	visibility: visible;
 	background-color: red;
 }

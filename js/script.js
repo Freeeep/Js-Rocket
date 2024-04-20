@@ -31,14 +31,14 @@ var car = {
 	fly: function() {
 		alert('Fly!!');
 	},
-	switchCar: function (isOn) {
-		console.log('turn car '+isOn)
-			;
-		if (isOn == true) {
-			this.isTurnedOn = true;
-			} else {
+	switchCar: function () {
+		
+		if (car.isTurnedOn == true) {
 			this.isTurnedOn = false;
+			} else {
+			this.isTurnedOn = true;
 		}
+		console.log(car.isTurnedOn);
 	}
 
 	};

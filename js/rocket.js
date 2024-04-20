@@ -19,7 +19,7 @@ var changeState = function (state)
 			if (countdownNumber <= 0) {
 				changeState(3);
 			};	
-		}, 500);	
+		}, 100);	
 	} else if (state == 3) {
 		var success = setTimeout(function () 
 		{
@@ -27,13 +27,13 @@ var changeState = function (state)
 			console.log('Random Numer '+randomNumber);
 
 			//success
-			if (randomNumber >= 5) {
+			if (randomNumber >= 10) {
 				changeState(4);
 
 			//failure Oh No
 			} else{
 				changeState(5);
 			} 
-		}, 1500)
+		}, 2000)
 	}
 } 
