@@ -1,4 +1,18 @@
 body{
-	background-color: hotpink;
-	text-color: white;
+	background-color: grey;
+
+}
+
+.cool{
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transition: background-colour 2s;
+
+}
+
+.cool.red{
+	visibility: visible;
+	background-color: red;
 }
